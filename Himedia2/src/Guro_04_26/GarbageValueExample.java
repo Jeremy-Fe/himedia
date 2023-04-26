@@ -1,7 +1,5 @@
 package Guro_04_26;
 
-import java.util.Iterator;
-
 public class GarbageValueExample {
 
 	public static void main(String[] args) {

@@ -17,6 +17,7 @@ public class VariavlesScopeExample {
 			v2 = v1 - 10;
 		}
 		
+		@SuppressWarnings("unused") // v3 에 노란줄 없애버림 거슬려서
 		int v3 = v1 + v2 + 5; // 노란색 줄은 경고. 실행에 문제는 없으나 문제가 있을 소지가 있음
 	}
 
